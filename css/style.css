@@ -539,6 +539,14 @@ h1, h2, h3 {
   margin-top: 8px;
 }
 
+.visitor-stats {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
 .footer-links a {
   color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
