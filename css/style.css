@@ -526,6 +526,15 @@ h1, h2, h3 {
   font-size: 0.92rem;
 }
 
+.visitor-card {
+  justify-content: flex-start;
+}
+
+.visitor-card img {
+  height: 20px;
+  max-width: 100%;
+}
+
 /* Footer */
 .footer {
   background: var(--primary);
