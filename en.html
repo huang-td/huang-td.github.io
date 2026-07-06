@@ -281,12 +281,26 @@
             </svg>
             <span>University Profile</span>
           </a>
-          <div class="contact-card visitor-card">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z"/>
-              <circle cx="12" cy="12" r="3"/>
+          <div class="contact-card visitor-card visitor-chart" aria-label="Visitor analytics">
+            <svg class="visitor-chart-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 3v18h18"/>
+              <path d="M7 15l3-3 3 2 5-7"/>
+              <path d="M18 7h-4"/>
+              <path d="M18 7v4"/>
             </svg>
-            <img src="https://visitor-badge.laobi.icu/badge?page_id=huang-td.huang-td.github.io&left_text=Visitors" alt="Visitor count">
+            <div class="visitor-chart-body">
+              <div class="visitor-chart-head">
+                <span class="visitor-chart-title">Visitor chart</span>
+                <span class="visitor-chart-total"><span data-visitor-value="pv">0</span> views</span>
+              </div>
+              <div class="visitor-bars" aria-hidden="true">
+                <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+              </div>
+              <div class="visitor-chart-meta">
+                <span>Site views <strong data-visitor-value="pv">0</strong></span>
+                <span>Visitors <strong data-visitor-value="uv">0</strong></span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
